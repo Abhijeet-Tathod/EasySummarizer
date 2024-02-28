@@ -52,7 +52,7 @@ const onUploadComplete = async ({
   });
 
   try {
-    const response = await fetch(`https:/utfs.io/f/${file.key}`);
+    const response = await fetch(`https://utfs.io/f/${file.key}`);
 
     const blob = await response.blob();
 
